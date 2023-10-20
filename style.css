@@ -23,7 +23,18 @@ ul {
     align-items: center;
     width: 100%;
     height: 100px;
-    padding-right: 20px;
+    padding-right: 60px;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 16px;
+    color: #fff;
 }
 
 .right-nav-item {
@@ -32,11 +43,11 @@ ul {
     align-items: center;
 }
 
-li {
-    list-style: none;
+/*Logo*/
+.left-nav-item img {
+    height: 70px;
 }
 
-a {
-    text-decoration: none;
-    padding-left: 16px;
+.left-nav-item a {
+    padding-left: 0;
 }
