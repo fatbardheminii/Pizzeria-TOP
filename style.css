@@ -59,7 +59,7 @@ a {
     align-items: center;
     padding: 2rem 0;
 }
-
+/*left-side headerContainer*/
 .left-item-head {
     display: flex;
     flex-direction: column;
@@ -85,4 +85,17 @@ h1 {
     padding: 3px 8px;
     color: #fff;
     cursor: pointer;
+}
+/*right-side headerContainer*/
+
+.right-item-head > img {
+    border-radius: 15px 4px;
+    box-shadow: 2px 2px 8px #ebeceb;
+    opacity: .8;
+    transition: .5s;
+}
+
+.right-item-head > img:hover {
+    opacity: 1;
+    transform: scale(1.05);
 }
