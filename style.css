@@ -51,3 +51,38 @@ a {
 .left-nav-item a {
     padding-left: 0;
 }
+
+/*Header flex- H1+P+Button on the left side and image to the right side*/
+.header-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.left-item-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-item-head>p {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.button-order-header {
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-size: 1.25rem;
+    padding: 3px 8px;
+    color: #fff;
+    cursor: pointer;
+}
