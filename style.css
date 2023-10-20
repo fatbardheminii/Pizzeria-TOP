@@ -215,3 +215,10 @@ span {
     color: #fff;
     cursor: pointer;
 }
+
+/*Footer selectors*/
+.footer {
+    text-align: center;
+    color: #fff;
+    padding: .5rem;
+}
