@@ -73,7 +73,6 @@ a {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
@@ -98,4 +97,40 @@ h1 {
 .right-item-head > img:hover {
     opacity: 1;
     transform: scale(1.05);
+}
+
+/*Pick Pizza Container*/
+h2 {
+    font-size: 2.25rem;
+    color: #1F2937;
+    text-align: center;
+}
+
+/*Grid for whole container layout*/
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding: 0 1,25rem;
+}
+
+/*Flex inside each cardCont*/
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*img inside card size*/
+.card1 > img,
+.card2 > img,
+.card3 > img,
+.card4> img {
+    width: 75%;
+    height: 75%;
+    border-radius: 45px;
+    border: 2px solid #3882F6;
 }
